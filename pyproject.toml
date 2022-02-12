@@ -4,6 +4,12 @@ version = "0.0.1"
 description = "Python async http and websockets clients."
 authors = ["Teodor Kostov <kostov.teodor@gmail.com>"]
 license = "MIT"
+homepage = "https://github.com/teodorkostov/python-async-web"
+repository = "https://github.com/teodorkostov/python-async-web"
+keywords = ["async", "http", "https", "wss", "ws", "websockets", "client"]
+include = [
+  "LICENSE"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
