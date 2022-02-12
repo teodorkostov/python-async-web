@@ -28,10 +28,10 @@ class RxStream(Stream):
 
 
 class WrappedStream(Stream):
-  def __init__(self, template_string: Template):
-    super().__init__()
+  def __init__(self, stream: Stream, template_string: Template):
+    self.stream = stream
     self.template_string = template_string
 
   def send(self, message: str):
     message = self.template_string.substitute(data=message)
-    super().send(message)
+    self.stream.send(message)
