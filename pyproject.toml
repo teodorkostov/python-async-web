@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "async-web"
+version = "0.0.1"
+description = "Python async http and websockets clients."
+authors = ["Teodor Kostov <kostov.teodor@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+websockets = "^10.1"
+aiohttp = "^3.8.1"
+Rx = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
