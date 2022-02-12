@@ -4,7 +4,7 @@ import ssl
 import websockets
 from websockets.exceptions import ConnectionClosed
 
-from stream import Stream
+from .stream import Stream
 
 
 class WebSocketClient():

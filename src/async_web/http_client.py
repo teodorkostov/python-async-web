@@ -1,7 +1,7 @@
 from aiohttp import ClientSession
 import logging
 
-from stream import Stream
+from .stream import Stream
 
 
 
